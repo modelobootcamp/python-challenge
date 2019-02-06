@@ -5,7 +5,7 @@ import csv
 file_num = 1
 
 # Identifies file with poll data
-file = os.path.join('election_data' + str(file_num) + '.csv')
+file = os.path.join('election_data_good' + str(file_num) + '.csv')
 
 #Creates dictionary to be used for candidate name and vote count.
 poll = {}
